@@ -1,102 +1,184 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Joseph Clay Miller : App developer with a passion for games and puzzles" />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Joseph Clay Miller</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Joseph Miller">
+    <meta name="description" content="Portfolio of Apps by Joseph Miller">
+    <title>Joseph Miller</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/stylesheet.css" rel="stylesheet">
   </head>
-
   <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/josephclaymiller">View on GitHub</a>
-
-          <h1 id="project_title">Joseph Clay Miller</h1>
-          <h2 id="project_tagline">App developer with a passion for games and puzzles</h2>
-
-        </header>
+  	<!-- Navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-star"></span></a> -->
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#web">Web</a></li>
+            <li><a href="#mobile">Mobile</a></li>
+            <!-- <li><a href="mailto:josephclaymiller@gmail.com">Contact</a></li> -->
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a name="web-games" class="anchor" href="#web-games"><span class="octicon octicon-link"></span></a>Web Games</h1>
+    <div class="page-header" id="header">
+      <h1>Joseph Miller <small>App Developer</small></h1>
+    </div>
+  	<div class="container">
+  		<div class="content">
+		    <!-- Web Apps -->
+            <div id="web">
+                <h2>Web Games <small>JavaScript, JQuery, HTML5 canvas</small></h2>
 
-<h2>
-<a name="asteroids" class="anchor" href="#asteroids"><span class="octicon octicon-link"></span></a>Asteroids</h2>
+                <div class="media">
+                    <a class="pull-left" href="http://josephclaymiller.github.io/Snake/">
+                        <img class="media-object" src="images/snake_screenshot.png" alt="...">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading"> 
+                            <a href="http://josephclaymiller.github.io/Snake/">
+                                Snake
+                            </a>
+                        </h4>
+                        <p>Use the arrow keys to move the snake around the board. Eat apples to increase the length of the snake. You lose if the snake goes off the board or eats itself.</p>
+                        <p>
+                            <a href="https://github.com/josephclaymiller/Snake">View Code</a>
+                            (<code>JavaScript</code>, <code>jQuery</code>, <code>Underscore.js</code>)
+                        </p>
+                    </div>
+                </div>
 
-<p><img src="http://josephclaymiller.github.io/images/Asteroids_screenshot.png" alt="Asteroids"></p>
+                <div class="media">
+                    <a class="pull-left" href="http://josephclaymiller.github.io/Asteroids/">
+                        <img class="media-object" src="images/asteroids_screenshot.png" alt="...">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">
+                            <a href="http://josephclaymiller.github.io/Asteroids/">
+                                Asteroids
+                            </a>
+                        </h4>
+                        <p>Use the arrow keys or WASD to move the ship around. Use the spacebar to fire bullets at the asteroids to destroy them. The game ends if your ship hits an asteroid.</p>
+                        <p>
+                            <a href="https://github.com/josephclaymiller/Asteroids">View Code</a> 
+                            (<code>JavaScript</code>, <code>HTML5 &lt;canvas&gt;</code>)
+                        </p>
+                    </div>
+                </div>
 
-<ul>
-<li><a href="http://josephclaymiller.github.io/Asteroids/">Play</a></li>
-<li>
-<a href="https://github.com/josephclaymiller/Asteroids">View the code on GitHub</a>
-(<code>JavaScript</code>, <code>HTML5 &lt;canvas&gt;</code>)</li>
-</ul><p>Use the arrow keys or WASD to move the ship around. Use the spacebar to fire bullets at the asteroids to destroy them. The game ends if your ship hits an asteroid.</p>
+                <div class="media">
+                    <a class="pull-left" href="http://josephclaymiller.github.io/Memory/">
+                      <img class="media-object" src="images/memory_screenshot.png" alt="...">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">
+                            <a href="http://josephclaymiller.github.io/Memory/">
+                                Memory
+                            </a>
+                        </h4>
+                        <p>You gain points by selecting matching pairs of tiles. You can turn two tiles over at a time by clicking them. The tiles disappear and you gain points if it is a match, otherwise they flip back over.</p>
+                        <p>
+                            <a href="https://github.com/josephclaymiller/Memory">View Code</a> 
+                            (<code>JavaScript</code>, <code>jQuery</code>, <code>Underscore.js</code>)
+                        </p>
+                    </div>
+                </div>
 
-<h2>
-<a name="snake" class="anchor" href="#snake"><span class="octicon octicon-link"></span></a>Snake</h2>
+                <div class="media">
+                    <a class="pull-left" href="http://josephclaymiller.github.io/Tic-Tac-Toe/">
+                      <img class="media-object" src="images/tic_tac_toe_screenshot.png" alt="...">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">
+                            <a href="http://josephclaymiller.github.io/Tic-Tac-Toe/">
+                                Tic Tac Toe
+                            </a>
+                        </h4>
+                        <p>This game is played by 2 players alternating turns. Each turn a player clicks an empty tile to place a mark. The first player to place 3 marks in a row wins.</p>
+                        <p>
+                            <a href="https://github.com/josephclaymiller/Tic-Tac-Toe">View Code</a> 
+                            (<code>JavaScript</code>, <code>jQuery</code>)
+                        </p>
+                    </div>
+                </div>
 
-<p><img src="http://josephclaymiller.github.io/images/snake_screenshot.png" alt="Snake"></p>
+            </div>
+        
+            <!-- Mobile Apps -->
+            <div id="mobile">
+                <h2>Mobile Games <small>Objective-C, iOS SDK, Lua, Corona SDK</small></h2>
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="images/pong_screenshot.png" alt="...">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Pong</h4>
+                        <p>iPhone version of the game of Pong.</p>
+                        <p>
+                            <a href="https://github.com/josephclaymiller/Pong">View Code</a>
+                            (<code>Objective-C</code>, <code>iOS SDK</code>)
+                        </p>
+                            
+                    </div>
+                </div>
 
-<ul>
-<li>
-<a href="http://josephclaymiller.github.io/Snake/">Play</a> </li>
-<li>
-<a href="https://github.com/josephclaymiller/Snake">View the code on GitHub</a>
-(<code>JavaScript</code>, <code>jQuery</code>, <code>Underscore.js</code>)</li>
-</ul><p>Single player game of snake. Use the arrow keys to move the snake around the board. Eat apples to increase the length of the snake. You lose if the snake goes off the board or eats itself. </p>
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="images/midnight_screenshot.png" alt="...">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Midnight</h4>
+                        <p>Cross-platform mobile game for cats and people. The goal is to tap the color dots that move around. The dots are colorized in the beginning of the level and when they move. You lose points by tapping the other dots on the screen.</p>
+                        <p>
+                            <a href="https://github.com/josephclaymiller/Midnight">View Code</a>
+                            (<code>Lua</code>, <code>Corona SDK</code>)
+                        </p>
+                        <p>
+                            <a href="http://www.youtube.com/watch?v=3qJ11IMxZCQ">
+                                Video
+                                <span class="glyphicon glyphicon-play"></span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-<h2>
-<a name="memory" class="anchor" href="#memory"><span class="octicon octicon-link"></span></a>Memory</h2>
-
-<p><img src="http://josephclaymiller.github.io/images/memory_screenshot.png" alt="Memory"></p>
-
-<ul>
-<li><a href="http://josephclaymiller.github.io/Memory/">Play</a></li>
-<li>
-<a href="https://github.com/josephclaymiller/Memory">View the code on GitHub</a>
-(<code>JavaScript</code>, <code>jQuery</code>, <code>Underscore.js</code>)</li>
-</ul><p>You gain points by selecting matching pairs of tiles. You can turn two tiles over at a time by clicking them. The tiles disappear and you gain points if it is a match, otherwise they flip back over.</p>
-
-<h2>
-<a name="tic-tac-toe" class="anchor" href="#tic-tac-toe"><span class="octicon octicon-link"></span></a>Tic-Tac-Toe</h2>
-
-<p><img src="http://josephclaymiller.github.io/images/Tic_Tac_Toe_screenshot.png" alt="Tic-Tac-Toe"></p>
-
-<ul>
-<li><a href="http://josephclaymiller.github.io/Tic-Tac-Toe/">Play</a></li>
-<li>
-<a href="https://github.com/josephclaymiller/Tic-Tac-Toe">View the code on GitHub</a>
-(<code>JavaScript</code>, <code>jQuery</code>)</li>
-</ul><p>This game is played by 2 players alternating turns. Each turn a player clicks an empty tile to place a mark. The first player to place 3 marks in a row wins.</p>
-
-<h1>
-<a name="contact" class="anchor" href="#contact"><span class="octicon octicon-link"></span></a>Contact</h1>
-
-<ul>
-<li><a href="mailto:josephclaymiller@gmail.com">email</a></li>
-<li><a href="http://www.linkedin.com/pub/joseph-miller/20/393/443/">LinkedIn</a></li>
-</ul>
-      </section>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+    <footer id="contact">
+        <h2>Contact</h2>
+        <ul>
+            <li>
+                <a href="mailto:josephclaymiller@gmail.com">Email</a>
+            </li>
+            <li>
+                <a href="http://www.linkedin.com/pub/joseph-miller/20/393/443/">LinkedIn</a>
+            </li>
+        </ul>
+    </footer>
 
-    
 
+	<!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Script to help with the UI -->
+    <script type="text/javascript" src="js/ui.js"></script>
   </body>
 </html>
