@@ -18,10 +18,6 @@ h1 {
     padding: 0px 15px;
 }
 
-#web, #mobile {
-    border-bottom: 1px solid #eee;
-}
-
 #header, footer {
     margin: 0px;
     background-color: #000;
