@@ -41,3 +41,7 @@ footer li {
     list-style: none;
 }
 
+.media-body {
+    padding-left: 20px; 
+}
+
