@@ -1,4 +1,4 @@
-A portfolio of apps
+Portfolio of apps
 ==========================
 
 You can view my online portfolio [here](http://josephclaymiller.github.io/).
