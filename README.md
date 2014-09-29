@@ -1,5 +1,5 @@
 Portfolio of apps
 ==========================
 
-You can view my online portfolio [here](http://josephclaymiller.github.io/).
-It has links to mobile and web apps I've developed.
+View my online portfolio [here](http://josephclaymiller.github.io/).
+This site contains descriptions of mobile and web apps I've developed along with links to the code.
